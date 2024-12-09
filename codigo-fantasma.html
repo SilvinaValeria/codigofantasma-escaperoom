@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Código Fantasma</title>
+    <link rel="shortcut icon" href="assets/img/padlock-icon-vector-illustration.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Acceso Restringido</h1>
+        <p>Escribí las credenciales para poder continuar</p>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Usuario" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="button" onclick="validateLogin()">Ingresar</button>
+        </form>
+        <p id="errorMessage" class="error"></p>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
